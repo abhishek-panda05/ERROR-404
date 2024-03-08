@@ -1,79 +1,38 @@
-
-
-.grid {
-	/* every square is 15px and we need 28 squares per row */
+.grid {	
 	width: 420px;
 	height: 420px;
 	border: solid black;
 	display: flex;
-	flex-wrap: wrap
-
-}
-
-/* any div inside the div with class grid */
+	flex-wrap: wrap}
 .grid div {
 	width: 15px;
-	height: 15px;
-	/* background: blueviolet */
-
-}
-
-/* // 0 - pac-dots
-  // 1 - wall
-  // 2 - ghost-lair
-  // 3 - power-pellet
-  // 4 - empty */
-
+	height: 15px;}
 .pac-dot {
 	background-color: green;
-	/* the white will make the small dot due to color difference and also in combination with the other borders create the path (visually) where we move */
 	border: 5px solid white;
-	/* this makes sure the total widht and heigth includes the padding and the border. */
-	box-sizing: border-box;
-}
-
+	box-sizing: border-box;}
 .wall {
-	background-color: purple;
-}
-
+	background-color: purple;}
 .ghost-lair {
-	background-color: aqua;
-
-}
-
+	background-color: aqua;}
 .power-pellet {
 	background-color: green;
-	border-radius: 7.5px;
-}
-
+	border-radius: 7.5px;}
 .pacman {
 	background-color: yellow;
 	border-radius: 7.5px;
-	/* prevents pacman to have a border an have same size as pac-dot due to inheriting the border-box property */
-	border: none;
-}
-
+	border: none;}
 .blinky {
 	background-color: red;
-	border: none;
-}
-
+	border: none;}
 .pinky {
 	background-color: pink;
-	border: none;
-}
-
+	border: none;}
 .inky {
 	background-color: blue;
-	border: none;
-}
-
+	border: none;}
 .clyde {
 	background-color: orange;
-	border: none;
-}
-
+	border: none;}
 .scared-ghost {
-	background-color: aquamarine;
-	/* border: none; */
-}
+	background-color: aquamarine;}
